@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DCVSWidget</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="chatbutton">Show Chat Frame</string>
+    <string name="HomeBTNDesc">Home Button</string>
+    <string name="ChatBTNDesc">Chat Button</string>
+    <string name="FunBTnDesc">Entertainment Button</string>
+    <string name="HelpBTNDesc">Help Button</string>
+    <string name="title_activity_nacradio">NACRadio</string>
+    <string name="NACRadioPlayDESC">Play Button</string>
+    <string name="NACRadioPauseDESC">Pause Button</string>
+</resources>

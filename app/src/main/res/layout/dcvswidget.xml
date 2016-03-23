@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="#002e64fe"
+    android:padding="@dimen/widget_margin">
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/HomeBTN"
+        android:src="@drawable/dcvsbtnhome"
+        android:background="#002e64fe"
+        android:contentDescription="@string/HomeBTNDesc"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chatBTN"
+        android:src="@drawable/dcvsbtnchat"
+        android:background="#003065fe"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/HomeBTN"
+        android:contentDescription="@string/ChatBTNDesc" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/EntertainmentBTN"
+        android:src="@drawable/dcvsbtnfun"
+        android:background="#003065fe"
+        android:layout_below="@+id/chatBTN"
+        android:layout_toEndOf="@+id/HomeBTN"
+        android:contentDescription="@string/FunBTnDesc" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpBTN"
+        android:src="@drawable/dcvsbtnhelp"
+        android:background="#003065fe"
+        android:contentDescription="@string/HelpBTNDesc"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
